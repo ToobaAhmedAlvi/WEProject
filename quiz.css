@@ -1,0 +1,117 @@
+body 
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.button 
+{
+    
+    width: 20%;
+    /* height: 0px; */
+    padding: 5px;
+    font-weight: bolder;
+    text-align: center;
+    float:right;
+    /* background-image: linear-gradient(to top,rgba(238, 234, 240, 0.685),rgb(243, 237, 243)); */
+    background-color:yellow;
+    box-shadow: 0 0 10px 0 #999;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+}
+.button a 
+{
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+#container 
+{
+    width:65%;
+    margin: 150px auto;
+    padding: 50px 30px;
+    margin-left: 7%;
+    background-image: linear-gradient(to top, rgba(200, 195, 201, 0), rgba(156, 151, 156, 0));
+    /* background-image: linear-gradient(to top,pink,purple); */
+    /* background-color: #3f51b5; */
+    border-radius:3px;
+    float: left;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    box-shadow: 0 0 20px 0 #999;
+}
+.radioul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+}
+.nav-link
+{
+    color: white;
+}
+.nav-link :hover
+{
+    color: white;
+}
+.radioul >li
+{
+/* background: rgba(235, 232, 226, 0.692); */
+    width: 100%;
+    background-color: rgba(201, 199, 199, 0.596);
+        /* background-image: linear-gradient(to bottom,rgba(255, 192, 203, 0.507),rgba(128, 0, 128, 0.37)); */
+
+    padding: 10%;
+    font-size: larger;
+    color: black;
+    /* background-color: transparent; */
+    margin-bottom: 2px;
+    padding: 5px;
+    display: inline-block; 
+}
+#prev 
+{
+    display:none;
+}
+/* #start 
+{
+    display:none;
+    width: 100px;
+} */
+input[type="radio"]{
+    cursor: grab;
+}
+.button3new {
+    background-color: rgba(205, 34, 248, 0.767); 
+    color: black; 
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 10px 32px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #bd0ac4;
+}
+ 
+.button3new:hover {
+    background-color: #8d8407;
+    color: rgb(245, 239, 239);
+}
+.buttonstart
+{
+    display: true;
+    background-image: linear-gradient(to top,rgba(226, 85, 214, 0.829),rgba(128, 0, 128, 0.74)); 
+    color: rgb(250, 244, 244); 
+    margin: 4px 2px;
+    padding: 10px 32px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px 3px 5px #a5a1a5;
+}
+#ques
+{
+display: none;
+}
